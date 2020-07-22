@@ -1,0 +1,124 @@
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+.footnote {
+  font-size: small;
+  position: absolute;
+  bottom: 3em;
+}
+
+/* other styles */
+.red {
+  color: #fa0000;
+}
+.underline {
+  text-decoration: underline;
+}
+
+/* inverse styles */
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+
+/* images */
+.remark-slide-content .small img {
+  max-height: 10em;
+  min-height: 10em
+}
+
+.remark-slide-content .middle img {
+  max-height: 15em;
+  min-height: 15em
+}
+
+.remark-slide-content .large img {
+  max-height: 20em;
+  min-height: 20em
+}
+
+.remark-slide-content .image-teeny-tiny img {
+  max-height: 4em;
+  min-height: 4em
+}
+
+.remark-slide-content .font-tiny {
+  font-size: .5em
+}
+
+.remark-slide-content .image-tiny img {
+  max-height: 5em;
+  min-height: 5em
+}
+
+.remark-slide-content .font-small {
+  font-size: .7em
+}
+
+.remark-slide-content .image-small img {
+  max-height: 10em;
+  min-height: 10em
+}
+
+.remark-slide-content .font-small-middle {
+  font-size: 0.85em
+}
+
+.remark-slide-content .font-middle {
+  font-size: 1em
+}
+
+.remark-slide-content .image-middle img {
+  max-height: 15em;
+  min-height: 15em
+}
+
+.remark-slide-content .font-large {
+  font-size: 1.3em
+}
+
+.remark-slide-content .image-large img {
+  max-height: 20em;
+  min-height: 20em
+}
+
+.remark-slide-content .image-width-max img {
+  max-width: 100%;
+  min-width: 100%
+}
+
+
+
+/* Two-column layouts */
+.left-column {
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.left-column-33  { width: 33%; float: left; }
+.right-column-66 { width: 66%; float: right; }
+
+.left-column-66  { width: 66%; float: left; }
+.right-column-33 { width: 33%; float: right; }
+
+.right-column ~ p { clear: both; }
+.right-column ~ ul { clear: both; }
