@@ -1,6 +1,5 @@
 class: center, middle, inverse
-# Introdcution to OpenStreetMap
-MaptimeBmore<br>
+# Introduction to OpenStreetMap
 [jonathan dandois](https://twitter.com/jondandois)
 
 
@@ -17,16 +16,19 @@ MaptimeBmore<br>
 1. How to download and extract data from OSM
 
 1. Resources
+  - OSM Wiki: https://wiki.openstreetmap.org/
+  - LearnOSM: https://learnosm.org/
+  - TeachOSM: https://teachosm.org/
 
 ---
 .left-column[
   ## Introduction
 ]
 .right-column[
-  OpenStreetMap is a **global open data portal**:
+  OpenStreetMap is an **open global spatial data portal**:
   - Free for everyone to use .red[*]
   - Anyone can add to it
-  - You can download the data for your own project
+  - You can download the data for your own work
   - Some say it's kind of like the *Wikipedia* of maps
 
 
@@ -92,7 +94,7 @@ class: center
   ## Introduction
 ]
 .right-column[
-  OpenStreetMap is a global **geodatabase** of<br>
+  OpenStreetMap is a **global geodatabase** of<br>
   .underline[everything] and .underline[anything] that people add to the map:
   - roads, crosswalks, speed bumps, stop lights...
   - restuarants, daycares, playgrounds, cannons...
@@ -119,7 +121,8 @@ class: center
 Editing in OSM for just a few minutes covers a huge range of what you learn about in a GIS program:
   ## Editing, digitizing, image interpretation
   ## Databases
-  ## Metadata and attributes
+  ## Attributes
+  ## Metadata (Changeset)
   ## Data Quality (QA/QC)
 ]
 
@@ -161,7 +164,7 @@ Can be used to create more complex shapes, or to represent elements that are rel
 ---
 .left-column[
   ## OSM & GIS
-  ### Metadata & Attributes
+  ### Attributes
   .image-tiny[![key-value](https://wiki.openstreetmap.org/w/images/thumb/0/0d/Mf_tag.svg/120px-Mf_tag.svg.png)]
 ]
 .right-column[
@@ -192,11 +195,39 @@ Can be used to create more complex shapes, or to represent elements that are rel
 ---
 .left-column[
   ## OSM & GIS
+  ### Metadata
+]
+.right-column[
+  ## Changesets
+  - A **changeset** is the .underline[data about the data]
+  - Changes made by a user during an edit session
+    - Adding / removing elements
+    - Editing nodes/ways/relates
+    - Updating attribute tags
+  - May represent a single edit or a group of edits
+
+
+  The map of 2020 edits in Wuhan was made by downloading and analysing changeset data<br>
+  .image-small[![Wuhan Small](https://wiki.openstreetmap.org/w/images/thumb/e/ef/OSM_edits_in_Wuhan_2020.jpg/1024px-OSM_edits_in_Wuhan_2020.jpg)]
+
+
+  .footnote[https://wiki.openstreetmap.org/wiki/Changeset]
+]
+
+---
+## Changesets .font-small[check out the 'Query Features' tool]
+.center[
+  .image-width-max[![Changeset](./images/changeset.png)]
+]
+
+---
+.left-column[
+  ## OSM & GIS
   ### Data Quality
 ]
 .right-column[
   ## Data Quality
-  Large collection of rules for maintaining quality of feature topology and attributes.
+  Large collection of rules for maintaining quality of feature topology and attribute quality.
   .font-small[
 - Ways that do not connect
 - Missing key tags
@@ -222,6 +253,25 @@ Data issues in iD Editor
 ]
 
 ---
+## Data Quality .font-small[We must go deeper ⛏]
+Whats wrong with the solar panels?
+
+.left-column-50[
+  A suggestion was add to *Solar Panel* to include the tag:<br>**`generator:output:electricity=yes`**<br>
+]
+.right-column-50[
+  .image-middle[![solar panels](./images/solar-panel-suggestion.png)]
+]
+
+Why?
+
+---
+## Data Quality .font-small[We must go deeper ⛏]
+As you go deeper, there is a rich explanation of this tag and how power should be represented in OSM<br>
+.center[.image-large[![generators](./images/generator-power.png)]]
+.font-small[https://wiki.openstreetmap.org/wiki/Key:generator:output]
+.font-small[https://wiki.openstreetmap.org/wiki/Proposed_features/Power_generation_refinement]
+---
 .left-column[
   ## Contributing
   ### Editing
@@ -236,7 +286,7 @@ Data issues in iD Editor
 
 ## Advanced Desktop Editing
 - JOSM https://wiki.openstreetmap.org/wiki/JOSM
-- Advanced editing of large areas, bulk uploads
+- Advanced editing and QC of large areas, bulk uploads
 
 ## Mobile Editing
 - Vespucci (Android) https://wiki.openstreetmap.org/wiki/Vespucci
@@ -344,7 +394,7 @@ Including the whole Planet... https://planet.openstreetmap.org/
 .font-small-middle[
 1. Go to https://tasks.openstreetmap.us or https://tasks.hotosm.org
 1. Pick a task that is at the **BEGINNER** level with a low **% Mapped**
-1. Read Instructions, then: Map, Select A Random Task, Start Mapping, iD Editor Start Editing.
+1. Instructions, then: Map, Select A Random Task, Start Mapping, iD Editor Start Editing.
 1. When done editing in iD Editor **review** and **save** your edits, tag with #maptimebmore, then return to the Task page and select one of the options to stop editing.
 .image-small[![stop editing](./images/stop-editing.png)]
 ]
@@ -381,4 +431,4 @@ https://www.meetup.com/maptime_bmore/<br>
 https://twitter.com/MaptimeBmore
 
 View this presentation at:<br>
-[https://github.com/maptimebmore/ccbc-osm-presentation](https://github.com/maptimebmore/ccbc-osm-presentation)
+[https://github.com/maptimebmore/osm-presentation](https://github.com/maptimebmore/osm-presentation)

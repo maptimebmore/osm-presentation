@@ -114,8 +114,9 @@ a, a > code {
   float: right;
   padding-top: 1em;
 }
-.left-column-33  { width: 33%; float: left; }
-.right-column-66 { width: 66%; float: right; }
+
+.left-column-50  { width: 50%; float: left; }
+.right-column-50 { width: 50%; float: right; }
 
 .left-column-66  { width: 66%; float: left; }
 .right-column-33 { width: 33%; float: right; }
