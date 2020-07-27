@@ -49,7 +49,7 @@ class: center, middle, inverse
 OpenStreetMap is used by people all over the world:
   - individuals
   - volunteers
-  - companies (Apple, Esri, Facebook, ...)
+  - companies (Apple, **Amazon**, Facebook, **Esri**, ...)
   - nonprofits
   - governments
   - organizations
@@ -62,7 +62,7 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 
 ---
 ### Esri investing heavily in OSM
-.image-width-max[![Esri and OSM](./images/esri-osm.png)]
+.image-width-max[![Esri and OSM](./images/esri-osm-editors.png)]
 .font-small[https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/arcgis-data-support-in-osm-editors/]
 
 ---
@@ -72,12 +72,12 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 
 ---
 ### Amazon Logistics - Heatmap of one editors edits over one year
-.image-width-max[![Esri and OSM](./images/amazon_heatmap_large.png)]
+.image-width-max[![Esri and OSM](./images/amazon_heatmap_us.png)]
 
 ---
 ### Amazon Logistics - Many small edits, driveways, addresses, etc.
 Thousands of little edits to correct roads, driveways, service ways, address locations, all to help improve package deliveries.
-.image-width-max[![Esri and OSM](./images/amazon_heatmap_zoom.png)]
+.image-width-max[![Esri and OSM](./images/amazon_heatmap_md.png)]
 
 
 ---
