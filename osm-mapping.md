@@ -6,21 +6,6 @@ class: center, middle, inverse
 .footnote[This presesentation was made with [RemarkJS](https://github.com/gnab/remark)]
 
 ---
-## Agenda
-1. Introduction
-
-1. The intersection of GIS and OSM
-
-1. How to contribute to OSM (adding / editing data)
-
-1. How to download and extract data from OSM
-
-1. Resources
-  - OSM Wiki: https://wiki.openstreetmap.org/
-  - LearnOSM: https://learnosm.org/
-  - TeachOSM: https://teachosm.org/
-
----
 .left-column[
   ## Introduction
 ]
@@ -42,11 +27,6 @@ class: center, middle, inverse
 ---
 ## Explore POIs
 .image-width-max[![POIs](./images/POIs.png)]
-
----
-## Customized cartography for different themes
-.image-width-max[![Themes](./images/cycle-map.png)]
-
 ---
 ## Directions for car, bike, foot travel
 .image-width-max[![Directions](./images/navigation.png)]
@@ -81,6 +61,26 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 ]
 
 ---
+### Esri investing heavily in OSM
+.image-width-max[![Esri and OSM](./images/esri-osm.png)]
+.font-small[https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/arcgis-data-support-in-osm-editors/]
+
+---
+### Amazon Logistics - Editing OSM daily
+.image-width-max[![Esri and OSM](./images/amazon_editor.png)]
+.font-small[https://www.openstreetmap.org/user/agnisn]
+
+---
+### Amazon Logistics - Heatmap of one editors edits over one year
+.image-width-max[![Esri and OSM](./images/amazon_heatmap_large.png)]
+
+---
+### Amazon Logistics - Many small edits, driveways, addresses, etc.
+Thousands of little edits to correct roads, driveways, service ways, address locations, all to help improve package deliveries.
+.image-width-max[![Esri and OSM](./images/amazon_heatmap_zoom.png)]
+
+
+---
 class: center, middle, inverse
 # because...
 
@@ -113,34 +113,6 @@ class: center
 .center[.image-large[![Wuhan](https://wiki.openstreetmap.org/w/images/thumb/e/ef/OSM_edits_in_Wuhan_2020.jpg/1024px-OSM_edits_in_Wuhan_2020.jpg)]]<br>
 .font-small[OSM edits in Wuhan 2020. [Rendering by Jeff Underwood Mar 3, 2020](https://twitter.com/jeffdefacto/status/1235066401745817600)]<br>
 .font-small[https://wiki.openstreetmap.org/wiki/File:OSM_edits_in_Wuhan_2020.jpg]
----
-.left-column[
-  ## OSM & GIS
-]
-.right-column[
-Editing in OSM for just a few minutes covers a huge range of what you learn about in a GIS program:
-  ## Editing, digitizing, image interpretation
-  ## Databases
-  ## Attributes
-  ## Metadata (Changeset)
-  ## Data Quality (QA/QC)
-]
-
----
-.left-column[
-  ## OSM & GIS
-  ### Editing & Digitizing
-  ### Image Interpretation
-]
-.right-column[
-  Image interpretation and digitizing is a core component of contributing to OSM.
-  - POIs, addresses (points)
-  - Roads, sidewalks, paths (lines)
-  - School areas, central business districts, parks, lakes, playgrounds (polygons)
-
-Features are added to the map through on-screen digitizing from high-resolution aerial, satellite, and drone-based imagery by digitizing points, lines, and polygons.
-.image-middle[![OSM Editing](./images/osm-editing.jpg)]
-]
 
 ---
 .left-column[
@@ -215,10 +187,29 @@ Can be used to create more complex shapes, or to represent elements that are rel
 ]
 
 ---
-## Changesets .font-small[check out the 'Query Features' tool]
-.center[
-  .image-width-max[![Changeset](./images/changeset.png)]
-]
+class: center, middle, inverse
+# So, it’s open, community data.
+## Can I trust it?
+
+
+---
+# YES!
+OpenStreetMap has a huge quality control protocol and highly engaged reviewers that are both automated and working manually all the time, all over the world.
+- **“Naughty Word”** lists published in dozens of languages to flag griefers
+
+- Suspected **“Pokemon”** edits, which may be valid or invalid
+
+- **Geometry errors** (topology, irregular shapes, roads not connecting)
+
+- Screening any **new editor**
+
+- Changes to **large or primary features** like landmarks, lakes, major roads
+
+- Changes to borders, names of cities, towns, countries
+
+- Updated data on roads, buildings, shops, etc. constantly being added
+
+.footnote[https://wiki.openstreetmap.org/wiki/Quality_assurance]
 
 ---
 .left-column[
@@ -301,20 +292,24 @@ As you go deeper, there is a rich explanation of this tag and how power should b
 .left[
   .image-tiny[![OSMUS](./images/osmus.png)]
   .image-tiny[![HOTOSM](./images/hotosm.png)]
+  .image-tiny[![TeachOSM](./images/teach_OSM.png)]
 ]
 ]
 .right-column[
 ## US Tasking Manager
-Communities, organizations and governments nationwide have access to these maps to navigate our country and address local challenges. OSM US Tasks help improve the map to help address local challenges.<br>
+OSM US Tasks focus on local challenges.<br>
 .font-small[https://tasks.openstreetmap.us/]<br>
 .font-small[https://www.openstreetmap.us/]
 
 ## Humanitarian OSM Team (HOT)
-Contribute to global mapping projects to .underline[address local development challenges and aid disaster response.]<br>
-.font-small[https://tasks.hotosm.org/]
-
-HOT is an international team dedicated to humanitarian action and community development through open mapping.<br>
+Local development challenges and aid disaster response<br>
+.font-small[https://tasks.hotosm.org/]<br>
 .font-small[https://www.hotosm.org/]
+
+## TeachOSM
+Tasks focused on Mapathons and getting started<br>
+.font-small[https://tasks.teachosm.org/]<br>
+.font-small[https://teachosm.org/]
 ]
 
 ---
@@ -323,100 +318,40 @@ HOT is an international team dedicated to humanitarian action and community deve
 ]
 .right-column[
   .image-tiny[![Overpass API](https://wiki.openstreetmap.org/w/images/thumb/b/b5/Overpass_API_logo.svg/400px-Overpass_API_logo.svg.png)]
-  ## Overpass API
-The Overpass API provides quick access to OSM features based on a query language.
-
-## QuickOSM: .font-small[QGIS Plugin]
-.font-small[https://plugins.qgis.org/plugins/QuickOSM/]
-## OSMQuery: .font-small[ArcMap and Pro Python toolbox]
-.font-small[https://github.com/riccardoklinger/OSMquery]
+### Overpass API .font-tiny[https://overpass-turbo.eu/]
+### QuickOSM: .font-small[QGIS Plugin] .font-tiny[https://plugins.qgis.org/plugins/QuickOSM/]
+### OSMQuery: .font-small[ArcGIS toolboxes] .font-tiny[https://github.com/riccardoklinger/OSMquery]
+### And other ways to download data .font-tiny[https://wiki.openstreetmap.org/wiki/Downloading_data]
+### Including the whole Planet... .font-tiny[https://planet.openstreetmap.org/]
 ]
 
 ---
-.left-column[
-  ## Downloading
+## MaptimeBmore
+MaptimeBmore is a social group dedicated to inclusive GIS and mapping in Baltimore
+
+
+
+.left-column-50[
+We do:
+- OSM Mapathons
+
+- College networking & talks
+
+- Open source web-map tutorials
+
+- Field trips!
+
+- Mappy hours!
+
+- **Invite us to your event / org**
 ]
-.right-column[
-  ## Overpass Turbo
-  The easiest way to get familiar with it is through the Overpass-Turbo site https://overpass-turbo.eu/
-```javascript
-/*
-  This has been generated by the overpass-turbo wizard.
-  The original search was:
-  “playground”
-*/
-[out:json][timeout:25];
-// gather results
-(
-  // query part for: “playground”
-  node["leisure"="playground"]({{bbox}});
-  way["leisure"="playground"]({{bbox}});
-  relation["leisure"="playground"]({{bbox}});
-);
-// print results
-out body;
->;
-out skel qt;
-```
-Export queries to GeoJSON, KML and other formats for use in Desktop GIS.
+.right-column-50[
+  .image-middle[![solar panels](./images/acy_mapathon.png)]
+  Mapping playscapes / play deserts in Baltimore with Advocates for Children and Youth
+
 ]
 
----
-### Overpass Turbo query: .font-small[playgrounds in Baltimore]
-.image-width-max[![Overpass](./images/overpass.jpg)]
 
----
-### Overpass Turbo query: .font-small[playgrounds in Baltimore]
-.image-width-max[![Overpass Download](./images/overpass-download.jpg)]
-
-
----
-.left-column[
-  ## Downloading
-]
-.right-column[
- ## And other ways to download data
-https://wiki.openstreetmap.org/wiki/Downloading_data
-
-Including the whole Planet... https://planet.openstreetmap.org/
-]
-
----
-## Let's get mapping!
-### Getting started: login and walkthrough
-.font-small-middle[
-1. Go to OpenStreetMap.org and Login (register if needed)
-1. Click `Edit` in the upper-left and take the Walkthrough
-1. If Walkthrough is hidden: select Help on the right, and "Start the Walkthrough"
-]
-
-### Do some editing
-.font-small-middle[
-1. Go to https://tasks.openstreetmap.us or https://tasks.hotosm.org
-1. Pick a task that is at the **BEGINNER** level with a low **% Mapped**
-1. Instructions, then: Map, Select A Random Task, Start Mapping, iD Editor Start Editing.
-1. When done editing in iD Editor **review** and **save** your edits, tag with #maptimebmore, then return to the Task page and select one of the options to stop editing.
-.image-small[![stop editing](./images/stop-editing.png)]
-]
-
----
-## Download and view
-.font-small-middle[
-1. Go to overpass-turbo.eu
-
-1. Zoom to your area of interest
-
-1. Use the **Wizard** 🧙‍ to build out a query and run it
-
-1. Download as GeoJSON
-
-1. Use **ArcGIS Pro JSON Toolset** to import as a feature class https://pro.arcgis.com/en/pro-app/tool-reference/conversion/json-to-features.htm
-
-1. Explore data, create a visualization, download more data.
-
-1. Or, try doing all this with OSMQuery .font-small[https://github.com/riccardoklinger/OSMquery]
-
-]
 
 
 ---
