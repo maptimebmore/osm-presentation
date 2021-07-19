@@ -10,7 +10,7 @@ class: center, middle, inverse
   ## Introduction
 ]
 .right-column[
-  OpenStreetMap is an **open global spatial data portal**:
+  OpenStreetMap is:
   - Free for everyone to use .red[*]
   - Anyone can add to it
   - You can download the data for your own work
@@ -25,64 +25,10 @@ class: center, middle, inverse
 ]
 
 ---
-## Explore POIs
-.image-width-max[![POIs](./images/POIs.png)]
----
-## Directions for car, bike, foot travel
-.image-width-max[![Directions](./images/navigation.png)]
+class: center
+# You might know OpenStreetMap like this
+.image-width-max[![OSM in AGO](./images/ago-osm.png)]
 
----
-## Mobile apps
-.image-width-max[![Mobile](./images/mobile-apps.png)]
-
----
-### Multiple basemap themes - .font-small[for small Leaflet, OpenLayers, etc. projects]
-.image-width-max[![Basemaps](./images/leaflet-basemaps.png)]
-.font-small[https://leaflet-extras.github.io/leaflet-providers/preview/]
-
----
-.left-column[
-  ## Introduction
-  ### Used by many groups
-]
-.right-column[
-OpenStreetMap is used by people all over the world:
-  - individuals
-  - volunteers
-  - companies (Apple, **Amazon**, Facebook, **Esri**, ...)
-  - nonprofits
-  - governments
-  - organizations
-  - and more
-
-There are many ways to use OpenStreetMap: as a basemap, using the OSM data for routing or navigation, using OSM data for GIS analysis, such as planning or logistics for humanitarian groups, utilities, governments and more.
-
-.font-small[https://welcome.openstreetmap.org/about-osm-community/consumers/]
-]
-
----
-### Esri investing heavily in OSM
-.image-width-max[![Esri and OSM](./images/esri-osm-editors.png)]
-.font-small[https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/arcgis-data-support-in-osm-editors/]
-
----
-### Amazon Logistics - Editing OSM daily
-.image-width-max[![Esri and OSM](./images/amazon_editor.png)]
-.font-small[https://www.openstreetmap.org/user/agnisn]
-
----
-### Amazon Logistics - Heatmap of one editors edits over one year
-.image-width-max[![Esri and OSM](./images/amazon_heatmap_us.png)]
-
----
-### Amazon Logistics - Many small edits, driveways, addresses, etc.
-Thousands of little edits to correct roads, driveways, service ways, address locations, all to help improve package deliveries.
-.image-width-max[![Esri and OSM](./images/amazon_heatmap_md.png)]
-
-
----
-class: center, middle, inverse
-# because...
 
 ---
 class: center
@@ -186,6 +132,73 @@ Can be used to create more complex shapes, or to represent elements that are rel
   .footnote[https://wiki.openstreetmap.org/wiki/Changeset]
 ]
 
+
+---
+## Explore POIs
+.image-width-max[![POIs](./images/POIs.png)]
+---
+## Directions for car, bike, foot travel
+.image-width-max[![Directions](./images/navigation.png)]
+
+---
+## Mobile apps
+.image-width-max[![Mobile](./images/mobile-apps.png)]
+
+---
+### Multiple basemap themes - .font-small[for small Leaflet, OpenLayers, etc. projects]
+.image-width-max[![Basemaps](./images/leaflet-basemaps.png)]
+.font-small[https://leaflet-extras.github.io/leaflet-providers/preview/]
+
+---
+## Explore Landuse Landcover Globally
+.image-width-max[![OSM Landuse Landcover](./images/osm-landuse.png)]
+.font-small[https://osmlanduse.org/]
+
+
+---
+.left-column[
+  ## Introduction
+  ### Used by many groups
+]
+.right-column[
+OpenStreetMap is used by people all over the world:
+  - individuals
+  - volunteers
+  - companies (Apple, **Amazon**, Facebook, **Esri**, ...)
+  - nonprofits
+  - governments
+  - organizations
+  - and more
+
+There are many ways to use OpenStreetMap: as a basemap, using the OSM data for routing or navigation, using OSM data for GIS analysis, such as planning or logistics for humanitarian groups, utilities, governments and more.
+
+.font-small[https://welcome.openstreetmap.org/about-osm-community/consumers/]
+]
+
+---
+### Esri investing heavily in OSM
+.image-width-max[![Esri and OSM](./images/esri-osm-editors.png)]
+.font-small[https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/arcgis-data-support-in-osm-editors/]
+
+---
+### more slides about RapiD editor
+
+---
+### Amazon Logistics - Editing OSM daily
+.image-width-max[![Esri and OSM](./images/amazon_editor.png)]
+.font-small[https://www.openstreetmap.org/user/agnisn]
+
+---
+### Amazon Logistics - Heatmap of one editors edits over one year
+.image-width-max[![Esri and OSM](./images/amazon_heatmap_us.png)]
+
+---
+### Amazon Logistics - Many small edits, driveways, addresses, etc.
+Thousands of little edits to correct roads, driveways, service ways, address locations, all to help improve package deliveries.
+.image-width-max[![Esri and OSM](./images/amazon_heatmap_md.png)]
+
+
+
 ---
 class: center, middle, inverse
 # So, it’s open, community data.
@@ -262,6 +275,13 @@ As you go deeper, there is a rich explanation of this tag and how power should b
 .center[.image-large[![generators](./images/generator-power.png)]]
 .font-small[https://wiki.openstreetmap.org/wiki/Key:generator:output]
 .font-small[https://wiki.openstreetmap.org/wiki/Proposed_features/Power_generation_refinement]
+
+---
+## Data Quality - Missing Data
+If something is missing, .underline[YOU can add it!]
+
+...slides about playgrounds progress
+
 ---
 .left-column[
   ## Contributing
