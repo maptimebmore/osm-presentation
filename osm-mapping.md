@@ -56,9 +56,10 @@ class: center
 
 ---
 ## OpenStreetMap is **GIS** in action at a global scale.
-.center[.image-large[![Wuhan](https://wiki.openstreetmap.org/w/images/thumb/e/ef/OSM_edits_in_Wuhan_2020.jpg/1024px-OSM_edits_in_Wuhan_2020.jpg)]]<br>
-.font-small[OSM edits in Wuhan 2020. [Rendering by Jeff Underwood Mar 3, 2020](https://twitter.com/jeffdefacto/status/1235066401745817600)]<br>
-.font-small[https://wiki.openstreetmap.org/wiki/File:OSM_edits_in_Wuhan_2020.jpg]
+.center[.image-large[![100 Millionth Changeset](./images/osm-100-million.png)]]<br>
+.font-small[The 100 Millionth Changeset is added to OpenStreetMap Feb 25, 2021]<br>
+.font-small[https://blog.openstreetmap.org/2021/02/25/100-million-edits-to-openstreetmap/]<br>
+.font-small[https://www.openstreetmap.org/changeset/100000000#map=19/14.42623/-16.42198]
 
 ---
 .left-column[
@@ -67,13 +68,13 @@ class: center
   .image-middle[![Nodes](./images/node-way-relation.png)]
 ]
 .right-column[
-### Nodes: .font-small[Dots used to mark locations]
+### Nodes: .font-small[.underline[Points] used to mark locations]
 Nodes can be separate or can be connected.
 
-### Ways: .font-small[A connected line of nodes]
+### Ways: .font-small[Connected nodes forming .underline[lines and polygons]]
 Used to create roads, paths, rivers, and so on.  Ways can be open (lines), **closed** (closed loop, areas), **areas** (closed, filled in areas).
 
-### Relates: .font-small[A group of elements]
+### Relates: .font-small[.underline[Relationships] among groups of nodes & ways]
 Can be used to create more complex shapes, or to represent elements that are related but not physically connected. A grouping of elements and tags.
 
   .font-small[https://wiki.openstreetmap.org/wiki/Beginners_Guide_1.3]
@@ -157,14 +158,13 @@ Can be used to create more complex shapes, or to represent elements that are rel
 
 ---
 .left-column[
-  ## Introduction
-  ### Used by many groups
+  ## Used by many groups
 ]
 .right-column[
 OpenStreetMap is used by people all over the world:
   - individuals
   - volunteers
-  - companies (Apple, **Amazon**, Facebook, **Esri**, ...)
+  - companies (Apple, **Amazon**, Facebook, **Esri**,...)
   - nonprofits
   - governments
   - organizations
@@ -172,7 +172,10 @@ OpenStreetMap is used by people all over the world:
 
 There are many ways to use OpenStreetMap: as a basemap, using the OSM data for routing or navigation, using OSM data for GIS analysis, such as planning or logistics for humanitarian groups, utilities, governments and more.
 
+.image-width-max[![Corporate Contribs](./images/corporates.png)]
 .font-small[https://welcome.openstreetmap.org/about-osm-community/consumers/]
+.font-small[https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities]
+
 ]
 
 ---
@@ -181,21 +184,34 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 .font-small[https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/arcgis-data-support-in-osm-editors/]
 
 ---
-### more slides about RapiD editor
+### Esri & Facebook Mapping with AI
+.image-width-max[![Esri and OSM](./images/tech-facebook-esri.png)]
+.font-small[https://tech.fb.com/osm-ready-data-sets/]
+
+---
+### Facebook RapiD Editor - Partnersip w/ Esri, Microsoft, OSM
+.image-width-max[![RapiD Editor](./images/rapid-editor.png)]
+.font-small[https://mapwith.ai/rapid#map=17.34/38.33719/-75.11570]
+
+---
+### Amazon Logistics
+.image-width-max[![Amazon and OSM](./images/amazon_editing_use.png)]
+.font-small[https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities/Amazon]
+
 
 ---
 ### Amazon Logistics - Editing OSM daily
-.image-width-max[![Esri and OSM](./images/amazon_editor.png)]
+.image-width-max[![Amazon and OSM](./images/amazon_editor.png)]
 .font-small[https://www.openstreetmap.org/user/agnisn]
 
 ---
 ### Amazon Logistics - Heatmap of one editors edits over one year
-.image-width-max[![Esri and OSM](./images/amazon_heatmap_us.png)]
+.image-width-max[![Amazon and OSM](./images/amazon_heatmap_us.png)]
 
 ---
 ### Amazon Logistics - Many small edits, driveways, addresses, etc.
 Thousands of little edits to correct roads, driveways, service ways, address locations, all to help improve package deliveries.
-.image-width-max[![Esri and OSM](./images/amazon_heatmap_md.png)]
+.image-width-max[![Amazon and OSM](./images/amazon_heatmap_md.png)]
 
 
 
