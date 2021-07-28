@@ -2,33 +2,19 @@ class: center, middle, inverse
 # Introduction to OpenStreetMap
 [jonathan dandois](https://twitter.com/jondandois)
 
+[@MaptimeBmore](https://twitter.com/MaptimeBmore)
+
 
 .footnote[This presesentation was made with [RemarkJS](https://github.com/gnab/remark)]
 
 ---
-.left-column[
-  ## Introduction
-]
-.right-column[
-  OpenStreetMap is:
-  - Free for everyone to use .red[*]
-  - Anyone can add to it
-  - You can download the data for your own work
-  - Some say it's kind of like the *Wikipedia* of maps
-
-
-  .image-middle[![OSM Homepage](./images/osm-homepage.png)]<br>
-  .font-small[[OpenStreetMap.org](https://Openstreetmap.org)]<br>
-  .font-small[[OSM Welcome Mat: welcome.openstreetmap.org](https://welcome.openstreetmap.org/)]
-
-  .footnote[.red[*] OSM has a license and OpenStreetMap.org does have usage limits, see: [Terms of Use](https://wiki.osmfoundation.org/wiki/Terms_of_Use)]
-]
+class: center, middle, inverse
+# *What is OpenStreetMap?*
 
 ---
 class: center
 # You might know OpenStreetMap like this
 .image-width-max[![OSM in AGO](./images/ago-osm.png)]
-
 
 ---
 class: center
@@ -53,6 +39,26 @@ class: center
   JOSM image credit: [Wikmedia Commons](https://commons.wikimedia.org/wiki/File:JOSM_screenshot_hoofdscherm.png)
 ]
 ]
+
+---
+.left-column[
+  ## Introduction
+]
+.right-column[
+  OpenStreetMap is:
+  - Free for everyone to use .red[*]
+  - Anyone can add to it
+  - You can download the data for your own work
+  - Some say it's kind of like the *Wikipedia* of maps
+
+
+  .image-middle[![OSM Homepage](./images/osm-homepage.png)]<br>
+  .font-small[[OpenStreetMap.org](https://Openstreetmap.org)]<br>
+  .font-small[[OSM Welcome Mat: welcome.openstreetmap.org](https://welcome.openstreetmap.org/)]
+
+  .footnote[.red[*] OSM has a license and OpenStreetMap.org does have usage limits, see: [Terms of Use](https://wiki.osmfoundation.org/wiki/Terms_of_Use)]
+]
+
 
 ---
 ## OpenStreetMap is **GIS** in action at a global scale.
@@ -179,14 +185,9 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 ]
 
 ---
-### Esri investing heavily in OSM
+### Esri & Facebook investing heavily in OSM
 .image-width-max[![Esri and OSM](./images/esri-osm-editors.png)]
 .font-small[https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/arcgis-data-support-in-osm-editors/]
-
----
-### Esri & Facebook Mapping with AI
-.image-width-max[![Esri and OSM](./images/tech-facebook-esri.png)]
-.font-small[https://tech.fb.com/osm-ready-data-sets/]
 
 ---
 ### Facebook RapiD Editor - Partnership w/ Esri, Microsoft, OSM
@@ -194,7 +195,7 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 .font-small[https://mapwith.ai/rapid#map=17.34/38.33719/-75.11570]
 
 ---
-### Amazon Logistics
+### Amazon Logistics - Editing OSM daily
 .image-width-max[![Amazon and OSM](./images/amazon_editing_use.png)]
 .font-small[https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities/Amazon]
 

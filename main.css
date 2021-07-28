@@ -101,7 +101,9 @@ a, a > code {
   min-width: 100%
 }
 
-
+.remark-slide-number {
+  font-size: 8pt;
+}
 
 /* Two-column layouts */
 .left-column {
