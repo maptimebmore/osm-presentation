@@ -189,7 +189,7 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 .font-small[https://tech.fb.com/osm-ready-data-sets/]
 
 ---
-### Facebook RapiD Editor - Partnersip w/ Esri, Microsoft, OSM
+### Facebook RapiD Editor - Partnership w/ Esri, Microsoft, OSM
 .image-width-max[![RapiD Editor](./images/rapid-editor.png)]
 .font-small[https://mapwith.ai/rapid#map=17.34/38.33719/-75.11570]
 
@@ -203,17 +203,6 @@ There are many ways to use OpenStreetMap: as a basemap, using the OSM data for r
 ### Amazon Logistics - Editing OSM daily
 .image-width-max[![Amazon and OSM](./images/amazon_editor.png)]
 .font-small[https://www.openstreetmap.org/user/agnisn]
-
----
-### Amazon Logistics - Heatmap of one editors edits over one year
-.image-width-max[![Amazon and OSM](./images/amazon_heatmap_us.png)]
-
----
-### Amazon Logistics - Many small edits, driveways, addresses, etc.
-Thousands of little edits to correct roads, driveways, service ways, address locations, all to help improve package deliveries.
-.image-width-max[![Amazon and OSM](./images/amazon_heatmap_md.png)]
-
-
 
 ---
 class: center, middle, inverse
@@ -293,10 +282,11 @@ As you go deeper, there is a rich explanation of this tag and how power should b
 .font-small[https://wiki.openstreetmap.org/wiki/Proposed_features/Power_generation_refinement]
 
 ---
-## Data Quality - Missing Data
-If something is missing, .underline[YOU can add it!]
-
-...slides about playgrounds progress
+## Data Quality - Missing Data --> .underline[YOU can add it!]
+MaptimeBmore Mapathon to add missing playgrounds
+.center[
+  .image-width-max[![Playgrounds](./images/playgrounds-per-capita.png)]
+]
 
 ---
 .left-column[
@@ -387,9 +377,6 @@ We do:
 
 ]
 
-
-
-
 ---
 ## Thank you!
 ### Resources
@@ -403,3 +390,7 @@ https://twitter.com/MaptimeBmore
 
 View this presentation at:<br>
 [https://github.com/maptimebmore/osm-presentation](https://github.com/maptimebmore/osm-presentation)
+
+
+### --- To the Mapathon!!! --->
+https://tasks.teachosm.org/projects/1111
