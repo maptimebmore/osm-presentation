@@ -383,17 +383,14 @@ We do:
 ### Resources
 - OSM Wiki: https://wiki.openstreetmap.org/
 - LearnOSM: https://learnosm.org/
-- TeachOSM: https://teachosm.org/
 
 ### Follow MaptimeBmore
-https://www.meetup.com/maptime_bmore/<br>
-https://twitter.com/MaptimeBmore
+.font-small[https://www.meetup.com/maptime_bmore/]<br>
+.font-small[https://twitter.com/MaptimeBmore]
 
 View this presentation at:<br>
 [https://github.com/maptimebmore/osm-presentation](https://github.com/maptimebmore/osm-presentation)
 
-### Getting Started Instructions
-[Follow the Instructions PDF here](https://github.com/maptimebmore/osm-presentation/blob/main/TUgis%20OSM%20Mapathon%20Self-Guided%20Instructions%202021.pdf)
-
-### --- To the Mapathon!!! --->
-https://tasks.teachosm.org/projects/1111
+--- To the Mapathon!!! ---><br>
+[Follow the Instructions PDF here](https://github.com/maptimebmore/osm-presentation/blob/main/TUgis%20OSM%20Mapathon%20Self-Guided%20Instructions%202021.pdf)<br>
+Then, to the Task: https://tasks.teachosm.org/projects/1111
